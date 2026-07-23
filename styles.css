@@ -36,8 +36,8 @@ body {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-  gap: 1.25rem;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.5rem;
   max-width: 1400px;
   margin: 0 auto;
   padding: 0 1.5rem 3rem;
