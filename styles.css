@@ -64,6 +64,23 @@ body {
   }
 }
 
+.subtitle {
+  margin: 0.6rem 0 0;
+  color: #e6e6f0;
+  font-size: 1rem;
+}
+
+.subtitle a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.subtitle a:hover,
+.subtitle a:focus-visible {
+  color: #d9a8ff;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
